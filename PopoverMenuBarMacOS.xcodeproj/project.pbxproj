@@ -11,6 +11,7 @@
 		A5512A192C0092D700A0231F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5512A182C0092D700A0231F /* ContentView.swift */; };
 		A5512A1B2C0092D800A0231F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5512A1A2C0092D800A0231F /* Assets.xcassets */; };
 		A5512A1E2C0092D800A0231F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5512A1D2C0092D800A0231F /* Preview Assets.xcassets */; };
+		A5512A272C00934D00A0231F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5512A262C00934D00A0231F /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A5512A1A2C0092D800A0231F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5512A1D2C0092D800A0231F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5512A1F2C0092D800A0231F /* PopoverMenuBarMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopoverMenuBarMacOS.entitlements; sourceTree = "<group>"; };
+		A5512A262C00934D00A0231F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A5512A152C0092D700A0231F /* PopoverMenuBarMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5512A252C00934200A0231F /* Menu */,
 				A5512A162C0092D700A0231F /* PopoverMenuBarMacOSApp.swift */,
 				A5512A182C0092D700A0231F /* ContentView.swift */,
 				A5512A1A2C0092D800A0231F /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				A5512A1D2C0092D800A0231F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5512A252C00934200A0231F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A5512A262C00934D00A0231F /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5512A192C0092D700A0231F /* ContentView.swift in Sources */,
+				A5512A272C00934D00A0231F /* MenuView.swift in Sources */,
 				A5512A172C0092D700A0231F /* PopoverMenuBarMacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
